@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16E28D0FC2B33834D3E7C172 /* Pods_FacebookAlbumsView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EF229B25E805D04CDDF3D9 /* Pods_FacebookAlbumsView.framework */; };
+		D89C9C4D24E6C869008CE252 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89C9C4C24E6C869008CE252 /* AppDelegate.swift */; };
+		D89C9C4F24E6C869008CE252 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89C9C4E24E6C869008CE252 /* SceneDelegate.swift */; };
+		D89C9C5124E6C869008CE252 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89C9C5024E6C869008CE252 /* ViewController.swift */; };
+		D89C9C5424E6C869008CE252 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D89C9C5224E6C869008CE252 /* Main.storyboard */; };
+		D89C9C5624E6C86A008CE252 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D89C9C5524E6C86A008CE252 /* Assets.xcassets */; };
+		D89C9C5924E6C86A008CE252 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D89C9C5724E6C86A008CE252 /* LaunchScreen.storyboard */; };
+		D89C9C6424E6C8A4008CE252 /* FacebookResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89C9C6324E6C8A4008CE252 /* FacebookResponse.swift */; };
+		D89C9C6824E6C8B4008CE252 /* TableViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89C9C6624E6C8B4008CE252 /* TableViewCellViewModel.swift */; };
+		D89C9C6924E6C8B4008CE252 /* TableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89C9C6724E6C8B4008CE252 /* TableViewModel.swift */; };
+		D89C9C6C24E6C8C9008CE252 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89C9C6B24E6C8C9008CE252 /* TableViewCell.swift */; };
+		D89C9C7024E6C942008CE252 /* TableViewViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89C9C6E24E6C942008CE252 /* TableViewViewModelType.swift */; };
+		D89C9C7124E6C942008CE252 /* TableViewCellViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89C9C6F24E6C942008CE252 /* TableViewCellViewModelType.swift */; };
+		D89C9C7524E6C958008CE252 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89C9C7324E6C957008CE252 /* LoginViewController.swift */; };
+		D89C9C7624E6C958008CE252 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89C9C7424E6C958008CE252 /* TableViewController.swift */; };
+		D89C9C7924E6C970008CE252 /* ResponseDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89C9C7824E6C970008CE252 /* ResponseDecoder.swift */; };
+		D89C9C7B24E6CB83008CE252 /* FacebookAlbumRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89C9C7A24E6CB83008CE252 /* FacebookAlbumRequest.swift */; };
+		D89C9C7D24E6D1E5008CE252 /* ImageColectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89C9C7C24E6D1E5008CE252 /* ImageColectionViewController.swift */; };
+		D89C9C7F24E6D554008CE252 /* PhotoImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89C9C7E24E6D554008CE252 /* PhotoImageCell.swift */; };
+		D89C9C8124E6D674008CE252 /* ImageCollectiomViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89C9C8024E6D674008CE252 /* ImageCollectiomViewModelType.swift */; };
+		D89C9C8324E6D6A6008CE252 /* ImageCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89C9C8224E6D6A6008CE252 /* ImageCollectionViewModel.swift */; };
+		D89C9C8524E6DEB5008CE252 /* ImageViewCellViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89C9C8424E6DEB5008CE252 /* ImageViewCellViewModelType.swift */; };
+		D89C9C8724E6DEF7008CE252 /* ImageViewCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89C9C8624E6DEF7008CE252 /* ImageViewCellModel.swift */; };
+		D89C9C8924E6E30A008CE252 /* ImagePreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89C9C8824E6E30A008CE252 /* ImagePreviewController.swift */; };
+		D89C9C8B24E6E3E5008CE252 /* ImagePreviewFullCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89C9C8A24E6E3E5008CE252 /* ImagePreviewFullCellView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		630D019D54A558242CA6B213 /* Pods-FacebookAlbumsView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FacebookAlbumsView.debug.xcconfig"; path = "Target Support Files/Pods-FacebookAlbumsView/Pods-FacebookAlbumsView.debug.xcconfig"; sourceTree = "<group>"; };
+		75EF229B25E805D04CDDF3D9 /* Pods_FacebookAlbumsView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FacebookAlbumsView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90577BEA553CFE1B3D04D44C /* Pods-FacebookAlbumsView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FacebookAlbumsView.release.xcconfig"; path = "Target Support Files/Pods-FacebookAlbumsView/Pods-FacebookAlbumsView.release.xcconfig"; sourceTree = "<group>"; };
+		D89C9C4924E6C869008CE252 /* FacebookAlbumsView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacebookAlbumsView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D89C9C4C24E6C869008CE252 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D89C9C4E24E6C869008CE252 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D89C9C5024E6C869008CE252 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D89C9C5324E6C869008CE252 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D89C9C5524E6C86A008CE252 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D89C9C5824E6C86A008CE252 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D89C9C5A24E6C86A008CE252 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D89C9C6324E6C8A4008CE252 /* FacebookResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookResponse.swift; sourceTree = "<group>"; };
+		D89C9C6624E6C8B4008CE252 /* TableViewCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCellViewModel.swift; sourceTree = "<group>"; };
+		D89C9C6724E6C8B4008CE252 /* TableViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewModel.swift; sourceTree = "<group>"; };
+		D89C9C6B24E6C8C9008CE252 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		D89C9C6E24E6C942008CE252 /* TableViewViewModelType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewViewModelType.swift; sourceTree = "<group>"; };
+		D89C9C6F24E6C942008CE252 /* TableViewCellViewModelType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCellViewModelType.swift; sourceTree = "<group>"; };
+		D89C9C7324E6C957008CE252 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D89C9C7424E6C958008CE252 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		D89C9C7824E6C970008CE252 /* ResponseDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseDecoder.swift; sourceTree = "<group>"; };
+		D89C9C7A24E6CB83008CE252 /* FacebookAlbumRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookAlbumRequest.swift; sourceTree = "<group>"; };
+		D89C9C7C24E6D1E5008CE252 /* ImageColectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageColectionViewController.swift; sourceTree = "<group>"; };
+		D89C9C7E24E6D554008CE252 /* PhotoImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoImageCell.swift; sourceTree = "<group>"; };
+		D89C9C8024E6D674008CE252 /* ImageCollectiomViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectiomViewModelType.swift; sourceTree = "<group>"; };
+		D89C9C8224E6D6A6008CE252 /* ImageCollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewModel.swift; sourceTree = "<group>"; };
+		D89C9C8424E6DEB5008CE252 /* ImageViewCellViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewCellViewModelType.swift; sourceTree = "<group>"; };
+		D89C9C8624E6DEF7008CE252 /* ImageViewCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewCellModel.swift; sourceTree = "<group>"; };
+		D89C9C8824E6E30A008CE252 /* ImagePreviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePreviewController.swift; sourceTree = "<group>"; };
+		D89C9C8A24E6E3E5008CE252 /* ImagePreviewFullCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePreviewFullCellView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D89C9C4624E6C869008CE252 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16E28D0FC2B33834D3E7C172 /* Pods_FacebookAlbumsView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACE7D1C2852544B140641B67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75EF229B25E805D04CDDF3D9 /* Pods_FacebookAlbumsView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D89C9C4024E6C869008CE252 = {
+			isa = PBXGroup;
+			children = (
+				D89C9C4B24E6C869008CE252 /* FacebookAlbumsView */,
+				D89C9C4A24E6C869008CE252 /* Products */,
+				FAAA69AF53C448266C6AB406 /* Pods */,
+				ACE7D1C2852544B140641B67 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D89C9C4A24E6C869008CE252 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D89C9C4924E6C869008CE252 /* FacebookAlbumsView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D89C9C4B24E6C869008CE252 /* FacebookAlbumsView */ = {
+			isa = PBXGroup;
+			children = (
+				D89C9C6224E6C88E008CE252 /* Models */,
+				D89C9C7724E6C968008CE252 /* Services */,
+				D89C9C7224E6C94B008CE252 /* Controllers */,
+				D89C9C6D24E6C938008CE252 /* Protocols */,
+				D89C9C6A24E6C8BB008CE252 /* View */,
+				D89C9C6524E6C8AC008CE252 /* ViewModel */,
+				D89C9C4C24E6C869008CE252 /* AppDelegate.swift */,
+				D89C9C4E24E6C869008CE252 /* SceneDelegate.swift */,
+				D89C9C5024E6C869008CE252 /* ViewController.swift */,
+				D89C9C5224E6C869008CE252 /* Main.storyboard */,
+				D89C9C5524E6C86A008CE252 /* Assets.xcassets */,
+				D89C9C5724E6C86A008CE252 /* LaunchScreen.storyboard */,
+				D89C9C5A24E6C86A008CE252 /* Info.plist */,
+			);
+			path = FacebookAlbumsView;
+			sourceTree = "<group>";
+		};
+		D89C9C6224E6C88E008CE252 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D89C9C6324E6C8A4008CE252 /* FacebookResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D89C9C6524E6C8AC008CE252 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D89C9C6624E6C8B4008CE252 /* TableViewCellViewModel.swift */,
+				D89C9C6724E6C8B4008CE252 /* TableViewModel.swift */,
+				D89C9C8224E6D6A6008CE252 /* ImageCollectionViewModel.swift */,
+				D89C9C8624E6DEF7008CE252 /* ImageViewCellModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D89C9C6A24E6C8BB008CE252 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D89C9C6B24E6C8C9008CE252 /* TableViewCell.swift */,
+				D89C9C7E24E6D554008CE252 /* PhotoImageCell.swift */,
+				D89C9C8A24E6E3E5008CE252 /* ImagePreviewFullCellView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D89C9C6D24E6C938008CE252 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				D89C9C6F24E6C942008CE252 /* TableViewCellViewModelType.swift */,
+				D89C9C6E24E6C942008CE252 /* TableViewViewModelType.swift */,
+				D89C9C8024E6D674008CE252 /* ImageCollectiomViewModelType.swift */,
+				D89C9C8424E6DEB5008CE252 /* ImageViewCellViewModelType.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		D89C9C7224E6C94B008CE252 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D89C9C7324E6C957008CE252 /* LoginViewController.swift */,
+				D89C9C7424E6C958008CE252 /* TableViewController.swift */,
+				D89C9C7C24E6D1E5008CE252 /* ImageColectionViewController.swift */,
+				D89C9C8824E6E30A008CE252 /* ImagePreviewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D89C9C7724E6C968008CE252 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D89C9C7824E6C970008CE252 /* ResponseDecoder.swift */,
+				D89C9C7A24E6CB83008CE252 /* FacebookAlbumRequest.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FAAA69AF53C448266C6AB406 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				630D019D54A558242CA6B213 /* Pods-FacebookAlbumsView.debug.xcconfig */,
+				90577BEA553CFE1B3D04D44C /* Pods-FacebookAlbumsView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D89C9C4824E6C869008CE252 /* FacebookAlbumsView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D89C9C5D24E6C86A008CE252 /* Build configuration list for PBXNativeTarget "FacebookAlbumsView" */;
+			buildPhases = (
+				6C4F8446F4C8643F97831961 /* [CP] Check Pods Manifest.lock */,
+				D89C9C4524E6C869008CE252 /* Sources */,
+				D89C9C4624E6C869008CE252 /* Frameworks */,
+				D89C9C4724E6C869008CE252 /* Resources */,
+				39DB5D43754EB70C569F5900 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FacebookAlbumsView;
+			productName = FacebookAlbumsView;
+			productReference = D89C9C4924E6C869008CE252 /* FacebookAlbumsView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D89C9C4124E6C869008CE252 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "отмеченные";
+				TargetAttributes = {
+					D89C9C4824E6C869008CE252 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = D89C9C4424E6C869008CE252 /* Build configuration list for PBXProject "FacebookAlbumsView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D89C9C4024E6C869008CE252;
+			productRefGroup = D89C9C4A24E6C869008CE252 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D89C9C4824E6C869008CE252 /* FacebookAlbumsView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D89C9C4724E6C869008CE252 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D89C9C5924E6C86A008CE252 /* LaunchScreen.storyboard in Resources */,
+				D89C9C5624E6C86A008CE252 /* Assets.xcassets in Resources */,
+				D89C9C5424E6C869008CE252 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39DB5D43754EB70C569F5900 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FacebookAlbumsView/Pods-FacebookAlbumsView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FacebookAlbumsView/Pods-FacebookAlbumsView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FacebookAlbumsView/Pods-FacebookAlbumsView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C4F8446F4C8643F97831961 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FacebookAlbumsView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D89C9C4524E6C869008CE252 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D89C9C8924E6E30A008CE252 /* ImagePreviewController.swift in Sources */,
+				D89C9C7024E6C942008CE252 /* TableViewViewModelType.swift in Sources */,
+				D89C9C7924E6C970008CE252 /* ResponseDecoder.swift in Sources */,
+				D89C9C7D24E6D1E5008CE252 /* ImageColectionViewController.swift in Sources */,
+				D89C9C8324E6D6A6008CE252 /* ImageCollectionViewModel.swift in Sources */,
+				D89C9C6824E6C8B4008CE252 /* TableViewCellViewModel.swift in Sources */,
+				D89C9C5124E6C869008CE252 /* ViewController.swift in Sources */,
+				D89C9C4D24E6C869008CE252 /* AppDelegate.swift in Sources */,
+				D89C9C7B24E6CB83008CE252 /* FacebookAlbumRequest.swift in Sources */,
+				D89C9C6924E6C8B4008CE252 /* TableViewModel.swift in Sources */,
+				D89C9C6424E6C8A4008CE252 /* FacebookResponse.swift in Sources */,
+				D89C9C7624E6C958008CE252 /* TableViewController.swift in Sources */,
+				D89C9C7F24E6D554008CE252 /* PhotoImageCell.swift in Sources */,
+				D89C9C8724E6DEF7008CE252 /* ImageViewCellModel.swift in Sources */,
+				D89C9C6C24E6C8C9008CE252 /* TableViewCell.swift in Sources */,
+				D89C9C7124E6C942008CE252 /* TableViewCellViewModelType.swift in Sources */,
+				D89C9C8B24E6E3E5008CE252 /* ImagePreviewFullCellView.swift in Sources */,
+				D89C9C8524E6DEB5008CE252 /* ImageViewCellViewModelType.swift in Sources */,
+				D89C9C8124E6D674008CE252 /* ImageCollectiomViewModelType.swift in Sources */,
+				D89C9C7524E6C958008CE252 /* LoginViewController.swift in Sources */,
+				D89C9C4F24E6C869008CE252 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D89C9C5224E6C869008CE252 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D89C9C5324E6C869008CE252 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D89C9C5724E6C86A008CE252 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D89C9C5824E6C86A008CE252 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D89C9C5B24E6C86A008CE252 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D89C9C5C24E6C86A008CE252 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D89C9C5E24E6C86A008CE252 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 630D019D54A558242CA6B213 /* Pods-FacebookAlbumsView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KA9ZCQVJ6T;
+				INFOPLIST_FILE = FacebookAlbumsView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ab.FacebookAlbumsView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D89C9C5F24E6C86A008CE252 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90577BEA553CFE1B3D04D44C /* Pods-FacebookAlbumsView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KA9ZCQVJ6T;
+				INFOPLIST_FILE = FacebookAlbumsView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ab.FacebookAlbumsView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D89C9C4424E6C869008CE252 /* Build configuration list for PBXProject "FacebookAlbumsView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D89C9C5B24E6C86A008CE252 /* Debug */,
+				D89C9C5C24E6C86A008CE252 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D89C9C5D24E6C86A008CE252 /* Build configuration list for PBXNativeTarget "FacebookAlbumsView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D89C9C5E24E6C86A008CE252 /* Debug */,
+				D89C9C5F24E6C86A008CE252 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D89C9C4124E6C869008CE252 /* Project object */;
+}
